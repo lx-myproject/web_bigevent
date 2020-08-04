@@ -31,22 +31,22 @@ function getUserInfo() {
         },
         //不论成功还是失败最终都会调用complete回调函数
         // complete: function(res) {
-        //     // console.log(res.responseJSON);
-        //     // 在 complete 回调函数中，可以使用 res.responseJSON 拿到服务器响应回来的 数据
-        //     // if (res.responseJSON.status === 1 && res.responseJSON.message === '身份认证失败! ') {
-        //     //     //强制清空token
-        //     //     localStorage.removeItem('token');
-        //     //     //强制跳转到登录页面
-        //     //     location.href = '/login.html';
-        //     //     // alert(666);
-        //     // }
+        //     console.log(res.responseJSON);
+        //     // 在 complete 回调函数中， 可以使用 res.responseJSON 拿到服务器响应回来的 数据
         //     if (res.responseJSON.status === 1 && res.responseJSON.message === '身份认证失败！') {
-
         //         //强制清空token
         //         localStorage.removeItem('token');
         //         //强制跳转到登录页面
         //         location.href = '/login.html';
+        //         // alert(666);
         //     }
+        //     // if (res.responseJSON.status === 1 && res.responseJSON.message === '身份认证失败！') {
+
+        //     //     //强制清空token
+        //     //     localStorage.removeItem('token');
+        //     //     //强制跳转到登录页面
+        //     //     location.href = '/login.html';
+        //     // }
         // }
     });
 }
